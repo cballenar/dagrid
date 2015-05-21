@@ -1,0 +1,50 @@
+/*  Design
+==================================================================================== */
+
+.wrapper { width: 1200px; margin: 0 auto; padding: 0 0 1rem; }
+
+body > header { background: #202020; margin: 0 0 2rem; }
+h1.site-title { 
+	font-family: "atrament-web", sans-serif; font-weight: 800; 
+	font-size: 12rem; line-height: 1em; letter-spacing: -.05em; 
+	height: 12rem; margin: -2.5rem 0 0; 
+	color: #DADADA; text-shadow: 1px 1px 2px rgba(0%,0%,0%,.25);}
+	.site-title a { color:#DADADA; }
+	.site-title a:hover { color:#C04620; }
+	.site-title .subheader { font-size:.25em; letter-spacing: -.04em; color: #DADADA;}
+
+blockquote {
+	padding: 1rem 2rem;
+	margin: 0 2rem 2rem;
+	border-style: solid;
+	border-color: rgba(0,0,0,.1);
+	border-width: 0 0 0 .5rem;
+
+	font-style: italic; color: #555;
+}
+
+blockquote p { font-size: 1.5rem; }
+
+blockquote.pull-right {
+	float: right;
+	padding-right: 1rem;
+	padding-left: 0;
+	border-width: 0 .5rem 0 0;
+}
+
+.pull-left  { margin-left:  -24px; }
+.pull-right { margin-right: -24px; }
+img.pull-right { margin-left: 12px; margin-bottom:6px; }
+
+article header { border-bottom: 1px solid #DADADA; margin-bottom: 2rem; }
+
+article header p.metadata { font-size: 1.75rem; color: #777; }
+
+article div.metadata {}
+article div.metadata h2 { font-size: 24px; line-height: 30px; }
+article div.metadata ul { margin: 0 0 2rem; padding: 0; }
+article div.metadata li { list-style: none; border-bottom: 1px dotted #DADADA; padding: .25rem 1rem; }
+article div.metadata li:last-child { border-bottom: none; }
+article div.metadata .tags { border-top: .5rem solid #444; padding-top: 2rem; }
+
+article div.metadata li i { margin-right: .75rem; color: #C04620; }
